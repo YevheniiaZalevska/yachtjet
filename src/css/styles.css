@@ -6,10 +6,10 @@
 */
 /* Common styles */
 @import url('./base/reset.css');
-@import url('./base/container.css');
 @import url('./base/animations.css');
 @import url('./base/global.css');
 
 /* Sections style */
 @import url('./partials/header.css');
+@import url('./partials/hero.css');
 @import url('./partials/footer.css');
