@@ -11,5 +11,5 @@
 @import url('./base/global.css');
 
 /* Sections style */
-@import url('./header.css');
-@import url('./footer.css');
+@import url('./partials/header.css');
+@import url('./[artials/footer.css');
