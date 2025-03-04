@@ -1,0 +1,143 @@
+.about-us {
+    margin-top: -38px;
+    min-height: 775px;
+}
+
+.container-about {
+    padding: 0 20px;
+    margin: 0 auto;
+    min-height: 675px;
+    position: relative;
+}
+
+.wrapp-text-about {
+    background-color: #fbfbfb;
+    padding: 40px 20px;
+    border-radius: 24px 24px 0 0;
+    position: relative;
+}
+
+.about-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin-bottom: 40px;
+}
+
+.about-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.img-about-us {
+    border-radius: 24px;
+    height: 395px;
+    position: absolute;
+    top: 0;
+}
+
+.test {
+    background-color: #fbfbfb;
+    height: 20px;
+}
+
+.wrapp-img-about {
+    position: relative;
+    margin-top: -1px;
+}
+
+@media screen and (min-width: 768px) {
+    .about-us {
+        min-height: 951px;
+    }
+
+    .container-about {
+        padding: 0 32px;
+    }
+
+    .wrapp-text-about {
+        padding: 50px 0 50px 32px;
+    }
+
+    .about-title {
+        font-size: 48px;
+        max-width: 536px;
+        margin-bottom: 50px;
+    }
+
+    .about-subtitle {
+        font-size: 23px;
+        max-width: 389px;
+    }
+
+    .about-text {
+        font-size: 13px;
+        line-height: 1.15;
+        max-width: 385px;
+    }
+
+    .img-about-us {
+        content: url(/img/img-about-us/s3-tab.jpg);
+        height: 470px;
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+        .img-about-us {
+            content: url('/img/img-about-us/s3-tab@2x.jpg');
+        }
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .wrapp-text-about {
+        padding: 50px 50px 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-subtitle,
+    .about-text {
+        max-width: 354px;
+    }
+
+    .img-about-us {
+        width: 100%;
+        content: url(/img/img-about-us/s3-desk1280.jpg);
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+        .img-about-us {
+            content: url('/img/img-about-us/s3-desk1280@2x.jpg');
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .img-about-us {
+        content: url(/img/img-about-us/s3-desk1440.jpg);
+    }
+
+    @media (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi) {
+        .img-about-us {
+            content: url('/img/img-about-us/s3-desk1440@2x.jpg');
+        }
+    }
+}
