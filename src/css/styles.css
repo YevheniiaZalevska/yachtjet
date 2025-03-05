@@ -11,6 +11,11 @@
 
 /* Sections style */
 @import url('./partials/header.css');
+@import url('./partials/modal.css');
 @import url('./partials/hero.css');
 @import url('./partials/about-us.css');
+@import url('./partials/our-yachts.css');
+@import url('./partials/advantages.css');
+@import url('./partials/rent-a-yacht.css');
+@import url('./partials/reviews.css');
 @import url('./partials/footer.css');
